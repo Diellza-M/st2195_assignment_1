@@ -1,0 +1,16 @@
+---
+title: "R Studio Markdown"
+date: "16th February 2022"
+output: html_document
+---
+
+## Creating a R markdown file
+
+> This is a R markdown document that contains both comments in **markdown** and a **R** script to *print* the number 1 through 10
+
+
+```{r setup} 
+for (i in 1:10) print(i)
+```
+
+
